@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 216 50% 11%;
+    --foreground: 0 0% 100%;
+    --card: 216 50% 11%;
+    --card-foreground: 0 0% 100%;
+    --popover: 216 50% 11%;
+    --popover-foreground: 0 0% 100%;
+    --primary: 165 100% 42%;
+    --primary-foreground: 216 50% 11%;
+    --secondary: 216 50% 7%;
+    --secondary-foreground: 0 0% 100%;
+    --muted: 216 30% 20%;
+    --muted-foreground: 220 20% 55%;
+    --accent: 51 100% 50%;
+    --accent-foreground: 216 50% 11%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 165 100% 42%;
+    --input: 216 30% 20%;
+    --ring: 165 100% 42%;
+    --radius: 0.625rem;
+    --sidebar-background: 216 50% 7%;
+    --sidebar-foreground: 0 0% 100%;
+    --sidebar-primary: 165 100% 42%;
+    --sidebar-primary-foreground: 216 50% 11%;
+    --sidebar-accent: 216 30% 20%;
+    --sidebar-accent-foreground: 0 0% 100%;
+    --sidebar-border: 216 30% 20%;
+    --sidebar-ring: 165 100% 42%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-navy text-white font-inter antialiased;
+    background-color: #0A192F;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-outfit font-bold;
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply bg-cyan/5 backdrop-blur-sm border border-cyan/10 rounded-lg;
+  }
+  
+  .glass-card-hover {
+    @apply glass-card transition-all duration-300 hover:border-cyan/30 hover:shadow-cyan-glow hover:-translate-y-1;
+  }
+  
+  .text-gradient-gold {
+    @apply bg-gradient-to-r from-gold to-gold-muted bg-clip-text text-transparent;
+  }
+  
+  .hexagon {
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  }
+  
+  .hexagon-outline {
+    @apply relative;
+  }
+  
+  .hexagon-outline::before {
+    content: '';
+    @apply absolute inset-0 border-2 border-cyan/50;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  }
+  
+  .btn-cyan {
+    @apply bg-cyan text-navy font-semibold px-6 py-3 rounded-lg transition-all duration-300 hover:shadow-cyan-glow-lg hover:scale-[1.02];
+  }
+  
+  .btn-outline {
+    @apply border border-cyan/50 text-cyan px-6 py-3 rounded-lg transition-all duration-300 hover:bg-cyan/10 hover:border-cyan;
+  }
+  
+  .section-padding {
+    @apply px-4 sm:px-6 lg:px-8 xl:px-12 2xl:px-20;
+  }
+  
+  .gold-text {
+    color: #FFD700;
+  }
+  
+  .cyan-text {
+    color: #00D4AA;
+  }
+  
+  .muted-text {
+    color: #8892B0;
+  }
+}
+
+@layer utilities {
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .bg-grid-pattern {
+    background-image: 
+      linear-gradient(rgba(0, 212, 170, 0.03) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(0, 212, 170, 0.03) 1px, transparent 1px);
+    background-size: 50px 50px;
+  }
+  
+  .bg-hex-pattern {
+    background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M30 0l25.98 15v30L30 60 4.02 45V15L30 0z' fill='none' stroke='rgba(0, 212, 170, 0.05)' stroke-width='1'/%3E%3C/svg%3E");
+    background-size: 60px 60px;
+  }
+}
