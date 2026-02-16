@@ -143,6 +143,7 @@ export const fundingAmountOptions = [
 // Navigation Links
 export const navLinks = [
   { label: 'Services', href: '#services' },
+  { label: 'DTI Calculator', href: '#dti-calculator' },
   { label: 'How It Works', href: '#how-it-works' },
   { label: 'About', href: '#about' },
   { label: 'FAQ', href: '#faq' },
@@ -151,6 +152,7 @@ export const navLinks = [
 // Footer Links
 export const footerLinks = [
   { label: 'Services', href: '#services' },
+  { label: 'DTI Calculator', href: '#dti-calculator' },
   { label: 'How It Works', href: '#how-it-works' },
   { label: 'About', href: '#about' },
   { label: 'FAQ', href: '#faq' },
