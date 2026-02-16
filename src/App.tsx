@@ -1,6 +1,7 @@
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import ServicesTicker from '@/components/ServicesTicker';
+import DTICalculator from '@/components/DTICalculator';
 import Hero from '@/sections/Hero';
 import Services from '@/sections/Services';
 import HowItWorks from '@/sections/HowItWorks';
@@ -18,6 +19,7 @@ function App() {
         <Hero />
         <ServicesTicker />
         <Services />
+        <DTICalculator />
         <HowItWorks />
         <Stats />
         <MidPageCTA />
