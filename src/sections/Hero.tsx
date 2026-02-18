@@ -51,13 +51,17 @@ export default function Hero() {
           >
             {/* Headline */}
             <motion.div variants={itemVariants} className="space-y-4">
+              {/* Atlanta Badge */}
+              <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-cyan/10 border border-cyan/20">
+                <span className="text-cyan text-sm font-medium">📍 Atlanta's Business Funding Partner</span>
+              </div>
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-outfit font-bold leading-tight">
                 Get Your Business Funded{' '}
                 <span className="gold-text">IRL</span>.
               </h1>
               <p className="text-lg lg:text-xl text-text-muted max-w-xl">
-                We help business owners repair their credit, build business credit,
-                and secure real funding — from $10K to $5M+.
+                We help Atlanta business owners secure real funding — from $10K to $5M+.
+                Bad credit? We'll fix it first, then get you funded.
               </p>
             </motion.div>
 
@@ -88,7 +92,7 @@ export default function Hero() {
                 credit score went from 580 to 740 in 90 days."
               </p>
               <p className="text-cyan text-xs font-medium">
-                — Marcus T., Business Owner
+                — Marcus T., Atlanta Business Owner
               </p>
             </motion.div>
           </motion.div>

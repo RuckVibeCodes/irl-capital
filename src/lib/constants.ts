@@ -15,13 +15,13 @@ export const services = [
   {
     icon: 'ShieldCheck',
     title: 'Credit Repair',
-    description: "Bad credit shouldn't stop your business. We dispute errors, remove negatives, and rebuild your profile so you qualify for the funding you deserve.",
+    description: "Bad credit shouldn't stop your business. We fix it first — dispute errors, remove negatives, rebuild your profile — then get you funded when you're ready.",
     cta: 'Learn more →',
   },
   {
     icon: 'Building2',
     title: 'Business Funding',
-    description: 'From SBA loans to 0% business credit cards, lines of credit to revenue-based lending — we match you with the right capital for your situation.',
+    description: 'From SBA loans to 0% business credit cards, lines of credit to revenue-based lending — we match Atlanta businesses with the right capital for their situation.',
     cta: 'Learn more →',
   },
   {
@@ -76,7 +76,7 @@ export const faqData = [
   },
   {
     question: 'What if my credit score is low?',
-    answer: "That's exactly what we're here for. We offer credit repair services to help you qualify. Many of our clients started with scores in the 500s and are now funded with 700+ scores.",
+    answer: "That's exactly what we're here for. We offer credit repair services to help you qualify. Many of our Atlanta clients started with scores in the 500s and are now funded with 700+ scores. We fix your credit first, then get you funded — no dead ends.",
   },
   {
     question: 'How fast can I get funded?',
@@ -109,8 +109,8 @@ export const marqueeServices = [
 export const trustBullets = [
   'No Impact To Credit Score',
   'Fast Approvals — As Quick As 24 Hours',
-  'Revenue Based Lending (No Min. Credit Score)',
-  'Startup Funding (700+ Credit Score)',
+  'Bad Credit? We Fix It First, Then Fund You',
+  'Serving Atlanta Metro Business Owners',
 ];
 
 // Form Options

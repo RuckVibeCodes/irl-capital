@@ -23,18 +23,22 @@ export default function About() {
           className="max-w-3xl mx-auto text-center"
         >
           <h2 className="text-3xl lg:text-4xl font-outfit font-bold text-white mb-8">
-            Built By Entrepreneurs, For Entrepreneurs
+            Atlanta's Business Funding Partner
           </h2>
 
           <div className="space-y-6 text-text-muted text-lg leading-relaxed">
             <p>
-              IRL Capital was founded with one mission — to give business owners
+              IRL Capital was founded with one mission — to give Atlanta business owners
               real access to the capital they need, without the runaround.
             </p>
             <p>
               We've been where you are. We know the frustration of getting turned
               down, dealing with bad credit, and watching your business potential
               go unfunded. That's why we built a system that actually works.
+            </p>
+            <p>
+              Whether you need funding now or need to fix your credit first — we've got you covered.
+              No dead ends. Every conversation leads somewhere.
             </p>
           </div>
 
