@@ -107,10 +107,10 @@ export const marqueeServices = [
 
 // Trust Bullets
 export const trustBullets = [
-  'No Impact To Credit Score',
+  'No Credit Pull Until You're Approved',
   'Fast Approvals — As Quick As 24 Hours',
-  'Revenue Based Lending (No Min. Credit Score)',
-  'Startup Funding (700+ Credit Score)',
+  '$50K-$150K+ For Established Businesses',
+  'Serving Metro Atlanta & All of Georgia',
 ];
 
 // Form Options
@@ -133,11 +133,11 @@ export const creditScoreOptions = [
 ];
 
 export const fundingAmountOptions = [
-  '$10K-$25K',
   '$25K-$50K',
-  '$50K-$100K',
-  '$100K-$250K',
-  '$250K+',
+  '$50K-$75K',
+  '$75K-$100K',
+  '$100K-$150K',
+  '$150K+',
 ];
 
 // Navigation Links
