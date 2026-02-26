@@ -107,10 +107,10 @@ export const marqueeServices = [
 
 // Trust Bullets
 export const trustBullets = [
-  'No Credit Pull Until You're Approved',
-  'Fast Approvals — As Quick As 24 Hours',
-  '$50K-$150K+ For Established Businesses',
-  'Serving Metro Atlanta & All of Georgia',
+  "No Credit Pull Until You're Approved",
+  "Fast Approvals — As Quick As 24 Hours",
+  "$50K-$150K+ For Established Businesses",
+  "Serving Metro Atlanta & All of Georgia",
 ];
 
 // Form Options
